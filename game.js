@@ -39,7 +39,7 @@ $(document).ready(function () {
     }, 100);
   }
   let level = 1;
-  $(document).on("keypress", function () {
+  $(document).on("click", function () {
     if (level < 2) {
       nextSequence();
     }
